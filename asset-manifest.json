@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.eb524350.css",
+    "main.js": "/portfolio/static/js/main.8e66f39b.js",
+    "static/media/photo.jpg": "/portfolio/static/media/photo.e8895c925903ec39ad2c.jpg",
+    "static/media/crypto-preview1.jpg": "/portfolio/static/media/crypto-preview1.5cc47a1d515052c8a8c8.jpg",
+    "static/media/notes-preview.jpg": "/portfolio/static/media/notes-preview.947dd8ed17b0f0ac6a84.jpg",
+    "static/media/weather-preview.jpg": "/portfolio/static/media/weather-preview.037f97ad01e050ce8218.jpg",
+    "static/media/shop-preview.jpg": "/portfolio/static/media/shop-preview.b9bd105e2df3fe3e9699.jpg",
+    "static/media/social-preview.jpg": "/portfolio/static/media/social-preview.0ae265464c11687c5627.jpg",
+    "static/media/chat-preview.jpg": "/portfolio/static/media/chat-preview.6a7fd21f83d96cba5b1a.jpg",
+    "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/redux.png": "/portfolio/static/media/redux.492ed7d54dd2352c5786.png",
+    "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio/index.html",
+    "main.eb524350.css.map": "/portfolio/static/css/main.eb524350.css.map",
+    "main.8e66f39b.js.map": "/portfolio/static/js/main.8e66f39b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb524350.css",
+    "static/js/main.8e66f39b.js"
+  ]
+}
