@@ -52,7 +52,7 @@ const Portfolio = () => {
           </p>
           <p>
             Работа над данным проектом помогла мне более глубоко понять принципы
-            взаимодействия API. Также здесь я потренировал типизацию через
+            взаимодействия c API. Также здесь я потренировал типизацию через
             TypeScript и начал знакомство с библиотекой Tailwind CSS.
           </p>
         </div>
@@ -63,21 +63,21 @@ const Portfolio = () => {
     {
       id: 4,
       src: four,
-      about: "При работе над этим проектом я ознакомился с библиотекой Socket.IO и её базовыми принципами работы. Также поверхностно коснулся работы с сервером, после чего задеплоил его на платформе Render.",
+      about: "При работе над этим проектом я ознакомился с библиотекой Socket.IO и её базовыми принципами работы. Также поверхностно коснулся работы с сервером, после чего развернул его на платформе Render.",
       link: "https://github.com/Redligstone/chat",
       demo: "https://redligstone.github.io/chat/",
     },
     {
       id: 5,
       src: five,
-      about: "",
+      about: "При работе над данным проектом я познакомился с библиотекой React-компонентов Material UI (MUI) и поработал с API CoinGecko для получения информации о курсах криптовалют и графиках.",
       link: "https://github.com/Redligstone/CryptoTracker",
       demo: "https://redligstone.github.io/CryptoTracker/",
     },
     {
       id: 6,
       src: six,
-      about: "",
+      about: "При работе над данным проектом я закреплял знания по работе с LocalStorage и объектом Date.",
       link: "https://github.com/Redligstone/Notes",
       demo: "https://redligstone.github.io/Notes/#/",
     },
@@ -115,7 +115,7 @@ const Portfolio = () => {
                   </a>
                 </div>
               ) : (
-                <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                <div key={id} className="shadow-md shadow-gray-600  rounded-lg">
                   <img
                     src={src}
                     alt=""
@@ -137,7 +137,7 @@ const Portfolio = () => {
                       Код
                     </a>
                     <a
-                      className="w1/3 px-5 py-2 m-4 duration-200 hover:scale-110 hover:text-blue-300"
+                      className="w1/3 px-5 py-2 m-4 duration-200 hover:scale-110 hover:text-blue-300 cursor-pointer"
                       onClick={() => {
                         setShowProject(false);
                         setSelectedProject(id);
